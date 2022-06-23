@@ -22,3 +22,15 @@ The code can be executed as follows:
 ```bash
 node s3PutObject.js
 ```
+# Demo Ubuntu 20.04
+```bash
+sudo apt-get install unzip
+wget https://github.com/abilous-ti/aws-s3-nodejs-demo/archive/refs/heads/main.zip
+unzip main.zip
+
+cd main
+
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node s3PutObject.js
+```
