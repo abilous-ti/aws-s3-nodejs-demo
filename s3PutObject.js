@@ -15,7 +15,7 @@ function random(low, high) {
 
 // global vars
 const S3_BUCKET_NAME = "s3-putobject-test-" + random(10000, 50000);
-const FILE_NAME = "koala.jpg";
+const FILE_NAME = "koala.JPG";
 const AWS_REGION = "eu-west-1"
 
 async function createBucket() {
