@@ -1,0 +1,14 @@
+{
+  "name": "s3PutObject",
+  "description": "A Node.js application which creates an S3 bucket and uploads a file with permissions and metadata.",
+  "version": "1.0.0",
+  "main": "s3PutObject.js",
+  "dependencies": {
+    "aws-sdk": "^2.610.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DCORP",
+  "license": "ISC"
+}
