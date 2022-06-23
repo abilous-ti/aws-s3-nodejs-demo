@@ -28,9 +28,11 @@ sudo apt-get install unzip
 wget https://github.com/abilous-ti/aws-s3-nodejs-demo/archive/refs/heads/main.zip
 unzip main.zip
 
-cd main
+cd aws-s3-nodejs-demo-main/
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+npm install
 node s3PutObject.js
 ```
